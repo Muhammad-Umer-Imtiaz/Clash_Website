@@ -1,0 +1,1 @@
+    // "dev": "node --watch --loader ts-node/esm src/index.ts",

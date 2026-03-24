@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",            // or ES2020/ESNext
+    "module": "NodeNext",          // important for ESM
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "strict": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "skipLibCheck": true,
+    // Ensure Node globals like `process` are available everywhere
+    "types": ["node"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
